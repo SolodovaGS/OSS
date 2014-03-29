@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApplication6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ComboBox Height="35" HorizontalAlignment="Left" Margin="276,24,0,0" Name="comboBox1" VerticalAlignment="Top" Width="196" SelectionChanged="comboBox1_SelectionChanged">
+            <ComboBoxItem Content="вася" />
+            <ComboBoxItem Content="коля" />
+            <ComboBoxItem Content="какаха" />
+            <ComboBoxItem Content="полля" />
+        </ComboBox>
+    </Grid>
+</Window>
